@@ -10,11 +10,15 @@ export const Cards = styled.div`
 
 export const SearchSection = styled.div`
   position: sticky;
-  top: calc(3rem + 1.5rem);
+  top: 0;
   background-color: #eeeeee;
   text-align: center;
   padding: 2rem;
   z-index: 99;
+
+  @media screen and (min-width: 768px) {
+    top: calc(3rem + 1.5rem);
+  }
 `;
 
 export const SearchInput = styled.input`
