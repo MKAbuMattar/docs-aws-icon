@@ -1466,15 +1466,15 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-aws-icons@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/aws-icons/-/aws-icons-1.0.1.tgz#ff5ca0b05bf7fecb198e775678dbd4d8b1722640"
-  integrity sha512-VYP0oy1vxT0vXrX1gwES0tgmSZeoX/Xjnz4pLVyqEyx9RUCtGqDp3Sc2DmjoGUtCXHXnpuKNTe5Dv9pvtZ8RaA==
+aws-icons@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/aws-icons/-/aws-icons-1.1.0.tgz#3dded0f764d4019b97a9f73b42b8a3c4015b3726"
+  integrity sha512-YISfiSVPny0z6yG40QAEUQ7vH2PnhiEG6Ofw3/taPG+c8hcOeqjSasNLVWXPGNT6Xn9BzKrgRyc9bm7xHGUbxQ==
 
-aws-react-icons@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/aws-react-icons/-/aws-react-icons-1.0.3.tgz#1bcfab3188fb9ee3ded4073f22a440a4b842f48d"
-  integrity sha512-T1eBaGZ+hAchUprXR1zIQ3uHcYymITHCHLmiXmvbH/Wh2OK4dZELirzIM8oRttu9qtJvYm/F+t/cAOngJd3Uog==
+aws-react-icons@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/aws-react-icons/-/aws-react-icons-1.1.0.tgz#0e6497c7d413b7a8bbf042a122f25984fbc0148a"
+  integrity sha512-dYK86wbBbjXRvsYaJ6o8MFklOvkExeSevLQ6INtBiN1H4ylWnzzK5ir3GgL6w5tbgnIt9TMloynI1LkTOQKf7g==
 
 axe-core@^4.6.2:
   version "4.7.0"
