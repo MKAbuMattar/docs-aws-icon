@@ -54,7 +54,7 @@ const CardComponent = ({ item, language = 'HTML' }: Props) => {
 
 const IconComponent = ({ item }: IconComponentProps) => {
   const myLoader = ({ src, width, quality }: any) => {
-    return `https://unpkg.com/aws-icons@1.3.0/icons/${src}?w=${width}&q=${
+    return `https://unpkg.com/aws-icons@1.2.0/icons/${src}?w=${width}&q=${
       quality || 75
     }`;
   };
