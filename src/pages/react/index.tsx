@@ -49,6 +49,7 @@ pnpm add aws-react-icons`}
               </SyntaxHighlighter>
             </Card>
 
+            {/* @ts-ignore */}
             <DynamicMain icons={AWSReactIconsData.data} />
           </Section>
         </Container>

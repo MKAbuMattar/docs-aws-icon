@@ -20,6 +20,7 @@ const CardComponent = ({ item, language = 'TypeScript' }: Props) => {
     <div>
       <Card>
         <CardInfo>
+          {/* @ts-ignore */}
           <ListIcons componentName={item.component} />
           <CardTitle>{item?.name}</CardTitle>
         </CardInfo>
