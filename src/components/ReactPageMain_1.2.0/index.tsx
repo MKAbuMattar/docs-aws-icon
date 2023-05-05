@@ -1,14 +1,14 @@
 import { useCallback, useEffect, useState } from 'react';
 
-import { filterIt } from '@/components/ReactPageMain/utils/filterIt.util';
-import { initialItems } from '@/components/ReactPageMain/utils/initialItems.util';
-import Card from '@/components/ReactPageMain/Card';
+import { filterIt } from '@/components/ReactPageMain_1.2.0/utils/filterIt.util';
+import { initialItems } from '@/components/ReactPageMain_1.2.0/utils/initialItems.util';
+import Card from '@/components/ReactPageMain_1.2.0/Card';
 
 import {
   Cards,
   SearchInput,
   SearchSection,
-} from '@/components/ReactPageMain/style';
+} from '@/components/ReactPageMain_1.2.0/style';
 
 import {
   PropsReactPageMain as Props,
