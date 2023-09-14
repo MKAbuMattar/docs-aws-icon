@@ -6,9 +6,9 @@ import {
   Card,
   CardInfo,
   CardTitle,
-} from '@/components/ReactPageMain_1.2.0/Card/style';
+} from '@/components/ReactPageMain/Card/style';
 
-import ListIcons from '@/components/ReactPageMain_1.2.0/Card/ListIcons';
+import ListIcons from '@/components/ReactPageMain/Card/ListIcons';
 
 type Props = {
   item?: Daum;
@@ -21,7 +21,7 @@ const CardComponent = ({ item, language = 'TypeScript' }: Props) => {
       <Card>
         <CardInfo>
           {/* @ts-ignore */}
-          <ListIcons componentName={item.component} />
+          <ListIcons componentName={item?.component} />
           <CardTitle>{item?.name}</CardTitle>
         </CardInfo>
 
