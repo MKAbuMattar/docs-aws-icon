@@ -20,6 +20,9 @@ dependencies:
   '@aws-icons/svg_1.3.0':
     specifier: npm:aws-icons@1.3.0
     version: /aws-icons@1.3.0
+  '@aws-icons/svg_2.1.0':
+    specifier: npm:aws-icons@2.1.0
+    version: /aws-icons@2.1.0
   next:
     specifier: 14.2.3
     version: 14.2.3(@babel/core@7.24.4)(react-dom@18.3.1)(react@18.3.1)
@@ -2060,6 +2063,10 @@ packages:
 
   /aws-icons@1.3.0:
     resolution: {integrity: sha512-ssaCa/3c4qUdOtwy+EVY3AdfLE0fuoa9/ENhJkYZgWaH0DtqiNHm6XxapYMDaayjETH6nyVm3ApnWJ9/URFWaA==}
+    dev: false
+
+  /aws-icons@2.1.0:
+    resolution: {integrity: sha512-1uIL6naGfcdf6wNavno/7aMJRLan+Cw3+3IuVRrd+ghqTxp4TiyVb6DV01oq9ImzTBgSTBBYU+shjEiRL+qS6g==}
     dev: false
 
   /aws-react-icons@1.2.0(react@18.3.1):
