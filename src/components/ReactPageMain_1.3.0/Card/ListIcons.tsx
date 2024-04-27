@@ -1,9 +1,10 @@
-import * as AWSReactIcons from '@aws-icons/react_2.1.1';
+import * as AWSReactIcons from '@aws-icons/react_1.3.0';
 import { Fragment } from 'react';
 
 const ListIcons = ({ componentName }) => {
   const Component =
-    AWSReactIcons[componentName || 'ArchitectureServiceAmazonAthena'];
+    AWSReactIcons[componentName || 'ArchitectureServiceAmazonAthena'] ||
+    'ArchitectureServiceAmazonAthena';
 
   return (
     <Fragment>
