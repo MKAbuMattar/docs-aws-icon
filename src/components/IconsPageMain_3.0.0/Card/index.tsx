@@ -8,7 +8,7 @@ import {
   Card,
   CardInfo,
   CardTitle,
-} from '@/components/IconsPageMain/Card/style';
+} from '@/components/IconsPageMain_3.0.0/Card/style';
 
 type Props = {
   item?: Daum;

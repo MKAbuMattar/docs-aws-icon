@@ -6,9 +6,9 @@ import {
   Card,
   CardInfo,
   CardTitle,
-} from '@/components/ReactPageMain_2.1.1/Card/style';
+} from '@/components/ReactPageMain_3.0.0/Card/style';
 
-import ListIcons from '@/components/ReactPageMain_2.1.1/Card/ListIcons';
+import ListIcons from '@/components/ReactPageMain_3.0.0/Card/ListIcons';
 
 type Props = {
   item?: Daum;
