@@ -62,7 +62,7 @@ const IconComponent = ({ item }: IconComponentProps) => {
   return (
     <Image
       loader={myLoader}
-      src={`/${item.icon}`}
+      src={`${item.icon}`}
       alt={item.name}
       width={140}
       height={140}
