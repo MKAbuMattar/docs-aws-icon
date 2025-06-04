@@ -3,7 +3,8 @@ import { Fragment } from 'react';
 
 const ListIcons = ({ componentName }) => {
   const Component =
-    AWSReactIcons[componentName || 'ArchitectureServiceAmazonAthena'];
+    AWSReactIcons[componentName || 'ArchitectureServiceAmazonAthena'] ||
+    'ArchitectureServiceAmazonAthena';
 
   return (
     <Fragment>

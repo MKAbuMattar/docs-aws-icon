@@ -111,12 +111,12 @@ pnpm add aws-react-icons`}
             </CardInfo>
 
             <SyntaxHighlighter language={'TypeScript'}>
-              {`import { AmazonEC2 } from 'aws-react-icons';
+              {`import ArchitectureServiceAmazonEC2 from 'aws-react-icons/icons/ArchitectureServiceAmazonEC2';
 
 const App = () => {
   return (
     <div>
-      <AmazonEC2 />
+      <ArchitectureServiceAmazonEC2 />
     </div>
   );
 

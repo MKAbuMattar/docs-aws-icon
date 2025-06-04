@@ -26,9 +26,7 @@ const CardComponent = ({ item, language = 'TypeScript' }: Props) => {
         </CardInfo>
 
         <SyntaxHighlighter language={language}>
-          {`import { ${item?.component} } from 'aws-react-icons';
-          
-${item?.importComponent}`}
+          {`${item?.importComponent}`}
         </SyntaxHighlighter>
       </Card>
     </div>
