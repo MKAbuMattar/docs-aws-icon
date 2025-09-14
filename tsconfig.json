@@ -22,6 +22,7 @@
     "moduleResolution": "node",
     "isolatedModules": true,
     "jsx": "preserve",
+    "types": [],
     "baseUrl": "./src",
     "paths": {
       "@/assets/*": [
@@ -55,13 +56,6 @@
         "utils/*"
       ]
     }
-  },
-  "typeAcquisition": {
-    "enable": true,
-    "include": [
-      "react",
-      "react-dom"
-    ]
   },
   "include": [
     "next-env.d.ts",
