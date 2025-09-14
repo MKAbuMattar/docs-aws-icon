@@ -36,6 +36,9 @@
       "@/style/*": [
         "assets/style/*"
       ],
+      "@/styles/*": [
+        "styles/*"
+      ],
       "@/components/*": [
         "components/*"
       ],

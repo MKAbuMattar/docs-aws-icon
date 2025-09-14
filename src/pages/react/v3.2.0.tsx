@@ -9,9 +9,9 @@ import SyntaxHighlighter from '@/components/SyntaxHighlighter';
 
 import AWSReactIconsData from '@/data/aws-react-icons.data.3.2.0.json';
 
-const DynamicMain = dynamic(() => import('@/components/ReactPageMain_3.2.0'), {
+const DynamicMain = dynamic(() => import('@/components/Pages/ReactPage/v3.2.0'), {
   loading: () => <Loader />,
-  suspense: true,
+  
 });
 
 import {
