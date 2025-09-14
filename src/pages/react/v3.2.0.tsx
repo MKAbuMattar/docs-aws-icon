@@ -7,9 +7,9 @@ import Loader from '@/components/Loader';
 import Navbar from '@/components/Navbar';
 import SyntaxHighlighter from '@/components/SyntaxHighlighter';
 
-import AWSReactIconsData from '@/data/aws-react-icons.data.2.1.1.json';
+import AWSReactIconsData from '@/data/aws-react-icons.data.3.2.0.json';
 
-const DynamicMain = dynamic(() => import('@/components/Pages/ReactPage/v2.1.1'), {
+const DynamicMain = dynamic(() => import('@/components/Pages/ReactPage/v3.2.0'), {
   loading: () => <Loader />,
   
 });

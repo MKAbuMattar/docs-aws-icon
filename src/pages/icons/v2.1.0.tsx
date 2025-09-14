@@ -9,9 +9,9 @@ import SyntaxHighlighter from '@/components/SyntaxHighlighter';
 
 import AWSIconsData from '@/data/aws-icons.data.2.1.0.json';
 
-const DynamicMain = dynamic(() => import('@/components/IconsPageMain_2.1.0'), {
+const DynamicMain = dynamic(() => import('@/components/Pages/IconsPage/v2.1.0'), {
   loading: () => <Loader />,
-  suspense: true,
+  
 });
 
 import {

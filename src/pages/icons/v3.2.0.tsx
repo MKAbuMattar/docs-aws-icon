@@ -7,9 +7,9 @@ import Loader from '@/components/Loader';
 import Navbar from '@/components/Navbar';
 import SyntaxHighlighter from '@/components/SyntaxHighlighter';
 
-import AWSReactIconsData from '@/data/aws-react-icons.data.2.1.1.json';
+import AWSIconsData from '@/data/aws-icons.data.3.2.0.json';
 
-const DynamicMain = dynamic(() => import('@/components/Pages/ReactPage/v2.1.1'), {
+const DynamicMain = dynamic(() => import('@/components/Pages/IconsPage/v3.2.0'), {
   loading: () => <Loader />,
   
 });
@@ -23,32 +23,33 @@ import {
   SectionTitle,
 } from '@/assets/style/style';
 
-const ReactPage: NextPage = () => {
+const IconsPage: NextPage = () => {
   return (
     <>
       <Suspense fallback={<Loader />}>
         <Navbar />
         <Container>
           <Section>
-            <SectionTitle>AWS React Icons</SectionTitle>
+            <SectionTitle>AWS Icons</SectionTitle>
 
             <Card>
               <CardInfo>
-                <CardTitle>Install package / AWS React Icons</CardTitle>
+                <CardTitle>Install package / AWS Icons</CardTitle>
               </CardInfo>
 
               <SyntaxHighlighter language={'Bash'}>
                 {`#npm
-npm install --save aws-react-icons
+npm install --save aws-icons
 
 #yarn
-yarn add aws-react-icons
+yarn add aws-icons
 
 #pnpm
-pnpm add aws-react-icons`}
+pnpm add aws-icons`}
               </SyntaxHighlighter>
             </Card>
-            <DynamicMain icons={AWSReactIconsData.data} />
+
+            <DynamicMain icons={AWSIconsData.data} />
           </Section>
         </Container>
       </Suspense>
@@ -56,4 +57,4 @@ pnpm add aws-react-icons`}
   );
 };
 
-export default ReactPage;
+export default IconsPage;

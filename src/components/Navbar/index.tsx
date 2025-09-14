@@ -13,7 +13,7 @@ import {
 
 import { NavbarContainer } from '@/components/Navbar/style';
 
-const Nobvar = () => {
+const Navbar = () => {
   const navMenuRef = useRef(null);
   const navLinkRef = useRef([]);
 
@@ -86,6 +86,14 @@ const Nobvar = () => {
                   React Icons
                 </Link>
               </li>
+              <li className="nav__item">
+                <Link href="/versions" className="nav__link">
+                  <i className="nav__icon">
+                    <App />
+                  </i>
+                  Versions
+                </Link>
+              </li>
             </ul>
             <button
               className="nav__close"
@@ -115,4 +123,4 @@ const Nobvar = () => {
   );
 };
 
-export default Nobvar;
+export default Navbar;
