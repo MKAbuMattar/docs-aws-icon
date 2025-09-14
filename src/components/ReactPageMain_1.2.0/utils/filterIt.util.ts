@@ -1,15 +1,15 @@
-export const filterIt = (terms: string, arr: any[]) => {
+export const filterIt = (terms, arr) => {
   if ('' === terms || terms.length < 2) {
     return arr;
   }
 
   const words = terms.match(/\w+|"[^"]+"/g);
 
-  words?.push(terms);
+  words.push(terms);
 
-  return arr.filter((a: { [s: string]: unknown } | ArrayLike<unknown>) => {
+  return arr.filter((a) => {
     const v = Object.values(a);
     const f = JSON.stringify(v).toLowerCase();
-    return words?.every((val: string) => f.includes(val));
+    return words.every((val) => f.includes(val));
   });
 };
