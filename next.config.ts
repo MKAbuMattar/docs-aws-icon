@@ -2,18 +2,6 @@ import PWANextInit from 'next-pwa';
 import PWANextRuntimeCaching from 'next-pwa/cache';
 import type { NextConfig } from 'next';
 
-const nextConfig: NextConfig = {
-  output: 'export',
-  reactStrictMode: true,
-  compiler: {
-    styledComponents: true,
-  },
-  i18n: {
-    locales: ['en'],
-    defaultLocale: 'en',
-  },
-} satisfies NextConfig;
-
 const PWANextConfig = PWANextInit({
   dest: 'public',
   register: true,
@@ -26,6 +14,16 @@ const PWANextConfig = PWANextInit({
     '!app-build-manifest.json',
   ],
   buildExcludes: ['app-build-manifest.json'],
-});
+}) as unknown as (config: NextConfig) => NextConfig;
 
-export default PWANextConfig(nextConfig);
+const BaseConfig = {
+  output: 'export',
+  reactStrictMode: true,
+  compiler: {
+    styledComponents: true,
+  },
+};
+
+const config = PWANextConfig(BaseConfig as NextConfig) as NextConfig;
+
+export default config;
