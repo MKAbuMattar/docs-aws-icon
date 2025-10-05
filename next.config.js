@@ -9,6 +9,7 @@ const withPWA = require("next-pwa")({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = withPWA({
+  output: 'export',
   reactStrictMode: true,
   compiler: {
     styledComponents: true,
