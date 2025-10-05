@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
   compiler: {
     styledComponents: true,
   },
+  i18n: {
+    locales: ['en'],
+    defaultLocale: 'en',
+  },
 } satisfies NextConfig;
 
 const PWANextConfig = PWANextInit({
