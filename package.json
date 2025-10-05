@@ -36,5 +36,8 @@
     "eslint-config-next": "15.5.3",
     "prettier": "3.6.2",
     "typescript": "5.9.2"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
